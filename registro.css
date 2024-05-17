@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+    }
+    
+    body{
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        overflow:hidden;
+    }
+    
+    .sidebar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 240px;
+        background: #11101d;
+        padding: 6px 14px;
+    }
+    
+    .sidebar .logo-content .logo{
+        color: #fff;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .logo-content .logo i{
+        font-size: 25px;
+        margin-right: 8px;
+    }
+    
+    .logo-content .logo .logo_name{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .sidebar #btn{
+        position: absolute;
+        color: #fff;
+        left: 90%;
+        top: 6px;
+        font-size: 20px;
+        height: 50px;
+        width: 50%;
+        text-align: center;
+        line-height: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .sidebar ul{
+        margin-top: 20px;
+    }
+    
+    .sidebar ul li{
+       position: relative;
+       height: 55px;
+       width: 100%;
+       margin: 0px;
+       list-style: none;
+       line-height: 50px;
+    }
+    
+    .sidebar ul li input{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        background: #1d1b31;
+        padding-left: 50px;
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .sidebar ul li .fa-magnifying-glass{
+        position: absolute;
+        z-index: 99;
+        color: #fff;
+        font-size: 22px;
+        height: 0px;
+    }
+    
+    .sidebar ul li a{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-radius: 12px;
+    }
+    
+    .sidebar ul li a:hover{
+        color: #11101d;
+        background: #fff;
+    }
+    
+    .sidebar ul li i{
+        height: 50px;
+        min-width: 50px;
+        border-radius: 12px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+
+
+
+
+
+    .container {
+        width: 30%;
+        margin: 50px;
+        background-color: #1f1e3a;
+        padding: 40px;
+        border-radius: 10px;
+        margin-left: 525px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #fff;
+    }
+
+    label{
+        color: #fff;
+    }
+    
+    .form-group {
+        margin-bottom: 10px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="direccion"],
+    input[type="numero"],
+    input[type="edad"]{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    button {
+        background-color: #16d11f;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    button:hover {
+        background-color: #329a37;
+    }
+    
